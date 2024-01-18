@@ -1,0 +1,152 @@
+.carousel-caption h1{
+    font-size: 2.5rem;
+    color: white;
+}
+.carousel-caption p{
+    font-size: 0.9rem;
+    color: white;
+}
+.carousel{
+    /* margin-left: 2rem; */
+    margin: auto;
+}
+.carousel-caption{
+    background-color: rgba(94, 117, 79, 0.26);
+    margin-bottom: 4rem;
+    width: 70%;
+     /* display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; */
+} 
+.Carousel1{
+    background-image: url('./carousel1.jpg');
+    width: 100%;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.75;
+}
+.Carousel2{
+    background-image: url('./carousel2.jpg');
+    width: 100%;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.75;
+}
+.Carousel3{
+    background-image: url('./carousel3.jpg');
+    width: 100%;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.75;
+}
+.offer1{
+    background-image: url('./offer-1.jpg');
+    width: 100%;
+    height: 203px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    line-height: 1px;
+    font-family: 900;
+    opacity: 0.8;
+    
+}
+.offer2{
+    background-image: url('./offer-2.jpg');
+    width: 100%;
+    height: 203px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    line-height: 1px;
+    font-family: 900;
+    opacity: 0.8;
+}
+.of12{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+
+/* SecondCard() */
+.SC{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* TwoPicComponent */
+.TwoImgPart{
+    display: flex;
+}
+.TwoImgPart .offer11{
+    height: 300px;
+}
+.TwoImgPart .offer22{
+    height: 300px;
+}
+
+@media (max-width:992px) {
+    /* .TwoImgPart{
+        display: flex;
+        flex-direction: column;
+    } */
+    /* .offer2 */
+    .of12{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel{
+        margin-left: 0rem;
+        /* margin: auto; */
+    }
+    .Carousel1{
+        background-image: url('./carousel1.jpg');
+        width: 100%;
+        
+    }
+    .Carousel2{
+        background-image: url('./carousel2.jpg');
+        width: 100%;
+        
+    }
+    .Carousel3{
+        background-image: url('./carousel3.jpg');
+        width: 100%;
+        
+    }
+    .offer1{
+        background-image: url('./offer-1.jpg');
+        width: 100%;
+        
+    }
+    .offer2{
+        background-image: url('./offer-2.jpg');
+        width: 100%;
+        
+    }
+
+}

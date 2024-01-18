@@ -1,0 +1,124 @@
+:root {
+  --white: #fff;
+  --green: #55c953;
+  --colorcode: #2d2d2b;
+}
+.container {
+  background-color: var(--colorcode);
+  margin-top: 20px;
+  color: var(--white);
+  
+}
+.headerContent1 {
+ 
+  /* margin: auto; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+.headerContent {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  width: 70%;
+}
+.headerContent2 {
+  /* margin: auto 0.3rem; */
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  /* justify-content: space-between; */
+  /* border: 2px solid red; */
+}
+
+
+.subheader p {
+  font-size: 0.87rem;
+}
+.subheader h5 {
+  font-size: 1rem;
+}
+.subwidthP {
+  width: 50%;
+  /* border: 2px solid red; */
+  /* text-align: center; */
+  /* textAlign: "justify"; */
+}
+.subwidth {
+  /* width: 50%; */
+  /* border: 2px solid red; */
+  /* text-align: center; */
+  /* margin: auto; */
+}
+
+@media (max-width: 990px) {
+  .headerContent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headerContent {
+   
+    width: 100%;
+  }
+  .subwidth {
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    /* text-align: center; */
+  }
+  .w3{
+    width: 50%;
+
+  }
+  
+}
+@media (max-width:1075px) {
+  .w3{
+    width: 73%;
+  }
+}
+@media (max-width: 602px) {
+  .headerContent {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: center; */
+    /* justify-content: l; */
+  }
+  .subwidthP {
+    width: 100%;
+    /* border: 2px solid red; */
+    /* text-align:justify; */
+  }
+  .subwidthP p{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 1rem;
+    /* margin-left: 4rem; */
+  }
+  .subwidth {
+    width: 100%;
+    /* border: 2px solid red; */
+    /* text-align: center; */
+  }
+
+  .headerContent2 {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7rem;
+    /* justify-content: space-between; */
+  }
+}
+@media (max-width:345px) {
+  .headerContent2 {
+    gap: 2rem;
+  }
+}

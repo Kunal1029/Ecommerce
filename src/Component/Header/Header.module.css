@@ -1,0 +1,61 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+.nav{
+    /* background-color: #f5f5f5; */
+    /* background-color: #9d1a1a; */
+    height: 100%;
+    
+}
+.lmg{
+    display: none;
+}
+.nav li a{
+    color: #6c757d;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.nav li{
+    margin-left: 1rem;
+    line-height: 43px;
+}
+.fnave{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+/* .dropdown{
+    background-color: white;
+} */
+@media (max-width:992px) {
+    
+    .fnave{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+    .lgg{
+        display: none;
+    }
+    .lmg{
+        display:inline;
+        color: #3d464d;
+    }
+    .lmg a{
+        color: #3d464d;
+    }
+    .lmg a span{
+        color: #3d464d;
+    }
+}
+@media (max-width:370px) {
+    .fnave{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
