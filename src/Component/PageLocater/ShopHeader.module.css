@@ -1,0 +1,6 @@
+.ShopDetails a{
+    text-decoration: none;
+}
+.ShopDetails a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+
+.FilterAndFeature{
+    display: flex;
+}
+@media (max-width: 767px) {
+    .FilterAndFeature{
+        display: flex;
+        flex-direction: column;
+    }
+}

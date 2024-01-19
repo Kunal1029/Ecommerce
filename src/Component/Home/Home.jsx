@@ -1,7 +1,7 @@
 import "../../App.css";
 import Carousel from "./Carousel";
 import Categories from "./Category/Categories";
-import FeatureProduct from "./Featured_products/FeatureProduct";
+import FeatureProduct from "./FeatureProduct";
 import SecondCard from "./SecondCard";
 import TwoPicComponent from "./TwoPicComponent";
 

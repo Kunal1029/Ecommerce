@@ -1,5 +1,5 @@
-import Feature from "./Feature"
-import styles from "./Feature.module.css"
+import Feature from "../Featured_products/Feature"
+import styles from "../Featured_products/Feature.module.css"
 // eslint-disable-next-line react/prop-types
 export default function FeatureProduct({ProductType}) {
   return (
