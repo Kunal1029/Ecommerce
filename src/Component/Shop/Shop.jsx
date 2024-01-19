@@ -7,7 +7,7 @@ export default function Shop() {
 
   return (
     <div className="PageContainer">
-      <ShopHeader currPage="Shop List" />
+      <ShopHeader currPage="Shop List" shop="shop /" />
       <div className={`${styles.FilterAndFeature}`}>
         <div className=" col-lg-3 col-md-4">
           <Filter filterType="All Price" filter="PRICE" filNum={1} />

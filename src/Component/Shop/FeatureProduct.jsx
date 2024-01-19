@@ -1,7 +1,7 @@
 // import Feature from "./Featured_products/Feature"
 import Feature from "../Featured_products/Feature";
 import styles from "../Featured_products/Feature.module.css";
-// eslint-disable-next-line react/prop-types
+// eslint-disable-next-line react/prop-types  
 export default function FeatureProduct() {
   return (
     <div className="mt-5 mb-5">
