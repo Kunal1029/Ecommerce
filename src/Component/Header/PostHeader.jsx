@@ -1,5 +1,6 @@
 import styles from "./PostHeader.module.css";
 import "../../App.css"
+import { Link } from "react-router-dom";
 
 export default function PostHeader() {
   return (
@@ -110,65 +111,66 @@ export default function PostHeader() {
                     className={`navbar-nav  justify-content-end flex-grow-1 pe-3 ${styles.colr}`}
                   >
                     <li className="nav-item">
-                      <a href="#" className="nav-link" aria-current="page">
+                      <Link to="/" className="nav-link" aria-current="page">
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#" className="nav-link ">
+                      <Link to="/shop" className="nav-link ">
                         Shop
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a href="#" className="nav-link ">
+                      <Link to="/shopdetails" className="nav-link ">
                         Shop Detail
-                      </a>
+                      </Link>
                     </li>
-                    <li className="nav-item">
-                      <a href="#" className="nav-link ">
-                        Contact
-                      </a>
-                    </li>
+                    
                     <li className="nav-item dropdown ">
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         className="nav-link dropdown-toggle"
                         role="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         Pages
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu bg-success ">
                         <li>
-                          <a href="#" className="dropdown-item text-white">
+                          <Link to="/shoppingcart" className="dropdown-item text-white">
                             Shopping Cart
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#" className="dropdown-item text-white">
+                          <Link to="/checkout" className="dropdown-item text-white">
                             Checkout
-                          </a>
+                          </Link>
                         </li>
                       </ul>
+                    </li>
+                    <li className="nav-item">
+                      <Link to="/contact" className="nav-link ">
+                        Contact
+                      </Link>
                     </li>
                   </ul>
                 </div>
 
                 <div className={` ${styles.lmg}`}>
-                  <a href="#" className="btn px-0 ml-2 me-4">
+                  <Link to="/shopdetails" className="btn px-0 ml-2 me-4">
                     <i className="fas fa-heart me-1 fa-xl text-success"></i>
                     <span className="badge  border border-success  rounded-circle">
                       0
                     </span>
-                  </a>
+                  </Link>
 
-                  <a href="#" className="btn px-0 ml-2">
+                  <Link to="checkout" className="btn px-0 ml-2">
                     <i className="fas fa-shopping-cart fa-xl me-1 text-success"></i>
                     <span className="badge  border border-success rounded-circle">
                       0
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

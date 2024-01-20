@@ -1,6 +1,7 @@
 import PreHeader from "./PreHeader";
 import styles from "./MidHeader.module.css";
 import PostHeader from "./PostHeader";
+
 import "../../App.css";
 
 export default function Header() {
