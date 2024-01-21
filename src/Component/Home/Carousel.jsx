@@ -34,7 +34,7 @@ export default function Carousel() {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="2000">
             {/* <img src="./carousel1.jpg" className="w-100" alt="..." /> */}
-            <div className="Carousel1">
+            <div className="Carousel1 ">
               <div className="carousel-caption">
                 <h1>Men Fashion</h1>
                 <p>
