@@ -13,8 +13,7 @@ export default function Home() {
       <Categories />
       <FeatureProduct ProductType="FEATURED PRODUCTS"/>
       <TwoPicComponent />
-      <FeatureProduct ProductType="RECENT PRODUCTS
-" />
+      <FeatureProduct ProductType="RECENT PRODUCTS" />
     </div>
   )
 }
